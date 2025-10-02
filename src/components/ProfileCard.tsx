@@ -14,7 +14,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
   imageUrl = "https://www.nexventures.net/icon.png",
 }) => {
   return (
-    <div className="w-full max-w-xs mx-auto bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
+    <div className="w-full max-w-[300px] mx-auto bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300">
       <img
         src={imageUrl}
         alt={fullName}
